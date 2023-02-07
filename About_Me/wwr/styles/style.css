@@ -1,7 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&family=Roboto+Mono&family=Rock+Salt&display=swap');
+
 body{
     max-width: 1600px;
     margin: 0 auto
 }
+
+body{
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+h2{
+  margin: 0 
+}
+
 nav{
          text-align: centre;
         }
@@ -17,10 +31,16 @@ nav{
 .button-box{
     text-align: center;
 }
+
+h2{
+ font-family: Rock SaLt;  
+}
+
 main section{
     text-align: center; 
     
 }
+
 #background {
     height: 725px;
 }
@@ -28,14 +48,24 @@ body {
     background-color: rgb(235, 192, 149);
 }
  header{
-    background-color:rgb(141, 101, 101)
+    background-color: rgb(141, 101, 101);
  }
  nav a:hover{
     background-color: grey;
  }
  .book, .join{
     background-color: grey;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
  }
+
+ .rivers-card, .camping-card, .rapids-card {
+   margin: 200px 0;
+ }
+#background{
+ margin-bottom: 100px;  
+}
  .book:hover, .join:hover{
     background-color:rgb(141, 101, 101) ;
  }
@@ -44,28 +74,42 @@ body {
  }
  .msg{
     background-color: rgb(160, 154, 154);
+    line-height: 1.5em;
+    padding: 35px;
+    margin-top: 200px;
  }
  footer{
     background-color:  rgb(160, 154, 154);
     color: antiquewhite;
+    padding: 25px 50px;
+    margin-top: 200px;
  }
+
  nav a{
     background-color: transparent;
+    padding: 35px;
  }
  .home-title{
     background-color:tan;
     color:antiquewhite;
- }
+      font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+      font-size: 2em;
+      margin-top: 10px;
+  }
  h4{
     background-color: transparent;
-    background-color: rgb(145, 105, 105);
+    font-family: 'Roboto';
+    color: black
  }
  .msg h2{
     background-color: transparent;
     color: #e9e9e9;
+    font-family: Rock Salt;
  }
  .msg p{
     background-color: transparent;
+    padding-bottom: 15px;
+    margin-top: 22px;
  }
  footer a{
 
@@ -80,6 +124,7 @@ background-color: rgb(160, 154, 154);
  }
  .icon{
     width: 80px;
+    padding-top: 10px;
  }
  nav a {
     text-align: center;
@@ -100,11 +145,11 @@ footer a{
         
     } 
     footer p {
-        font-size: 1.2em;
+        font-size: 1em;
         color:#e9e9e9
     }    
     footer p a:hover {
-        text-decoration: underline;
+        text-decoration: none;
     }    
 
 footer h2, p{
@@ -123,3 +168,17 @@ h2 header{
     color: #e9e9e9;
 }
 
+#logo_link{
+   padding-top: 5px;  
+}
+
+footer .social img{
+   padding-top: 15px; 
+}
+
+.card-img{
+ border: 10px solid rgb(223, 215, 205)  
+}
+main section img {
+   box-sizing: border-box;
+}
