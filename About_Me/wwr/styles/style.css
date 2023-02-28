@@ -120,7 +120,7 @@ h2{
 
 
   a {
-    text-align: centre;
+    text-align: center;
   }
 
     
@@ -184,7 +184,6 @@ body {
  nav a{
     background-color: transparent;
     padding: 35px;
-    box-shadow: teal;
 
  }
  .home-title{
