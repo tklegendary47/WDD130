@@ -1,0 +1,283 @@
+
+header{
+    display: grid;
+    grid-template-columns: 150px auto; 
+    }
+    
+    #hero-img{
+     width: 100%;  
+    }
+    
+    nav {
+       display: flex;
+       justify-content: space-around;
+       text-align: center;
+    }
+    
+    #logo_link {
+       padding-top: 5px;
+       justify-self: center;
+       align-self: center;
+    }
+    
+    #hero{
+       display: grid;
+       grid-template-columns: 1fr 3fr 1fr;
+       margin-top: -110px; 
+    }
+    
+    #hero-box {
+       grid-column: 1/4;
+       grid-row: 1/3;
+       z-index: -1;
+    }
+    
+    #hero-msg{
+       grid-column: 2/3;
+       grid-row: 1/2;
+       margin-top: 100px;
+    }
+    
+    #hero-msg h4 {
+       color: rgb(194, 178, 178);
+    }
+
+    .msg{
+        background-color: #6f7364;  
+       padding: 35px;
+       grid-column: 6/10;
+       grid-row: 6/7;
+       box-shadow: 5px 5px 10px black;
+       line-height: 1em;
+       padding: 35px;
+       }
+       
+       body{
+           max-width: 1600px;
+           margin: 0 auto
+       }
+       
+       body{
+           font-size: 22px;
+           margin: 0;
+           padding: 0;
+           font-family: 'Merienda', sans-serif;
+       }
+       
+       
+       
+       
+       h2{
+         margin: 0 
+       }
+       
+       
+         a {
+           text-align: center;
+         }
+       
+           
+       #hero-msg h1, #hero-msg h4{
+           text-align: center;
+       }
+       
+       .button-box{
+           text-align: center;
+       }
+       
+       h2{
+        font-family: Fondamento;  
+       }
+       
+       main section{
+           text-align: center; 
+           
+       }
+       
+       #background {
+           height: 700px;
+       }
+       body {
+           background-color: rgb(235, 192, 149);
+       }
+        
+        nav a:hover{
+           background-color: rgb(173, 167, 167);
+        }
+       
+       
+        
+
+    
+
+
+       #background{
+        margin-bottom: 100px;  
+       }
+
+        #background{
+           background-color:rgb(167, 123, 123);
+        }
+        
+        footer{
+           background-color:  rgb(160, 154, 154);
+           color: antiquewhite;
+           padding: 25px 50px;
+           margin-top: 200px;
+           display: flex;
+           justify-content: space-around;
+           align-items: center;
+        }
+       
+        nav a{
+           background-color: transparent;
+           padding: 35px;
+       
+        }
+        .home-title{
+           background-color: transparent;
+           color: rgb(182, 146, 146);
+             font-size: 2em;
+             margin-top: 10px;
+             font-family: 'Fondamento', 'Bradley Hand', sans-serif;   
+         }
+       
+        h4{
+           background-color: transparent;
+           font-family: 'Roboto';
+           color: black
+        }
+        .msg h2{
+           background-color: transparent;
+           font-family: 'Charmonman';
+           color: rgb(141, 101, 101)
+           
+        }
+        .msg p{
+           background-color: transparent;
+           padding-bottom: 15px;
+           margin-top: 22px;
+        }
+        footer a{
+       
+       background-color: rgb(160, 154, 154);
+       color: #e9e9e9;
+       text-align: center;
+       text-decoration: transparent;
+        }
+        footer a:hover{
+           background-color: rgb(141, 101, 101);
+        }
+        .logo{
+           width: 80px;
+        }
+        .icon{
+           width: 80px;
+           padding-top: 10px;
+        }
+        nav a {
+           text-align: center;
+           color: #fcfbfb;
+           text-decoration: none;
+       }
+       #hero h4{
+        font-family: 'Charmonman'; 
+        color: rgb(182, 146, 146);
+       }
+
+        
+           footer p {
+               font-size: 1em;
+               color:#e9e9e9
+           }    
+           footer p a:hover {
+               text-decoration: none;
+           }    
+       
+       footer h2, p{
+           color: #e9e9e9;
+          font-family: 'Itim', sans-serif;
+       }
+       title{
+           color: #e9e9e9;
+       }
+       h1{
+           color: antiquewhite;
+           background-color:aliceblue;
+       
+       }
+       h2 header{
+           color: #e9e9e9;
+       }
+       
+       #logo_link{
+          padding-top: 5px;  
+       }
+       
+       footer .social img{
+          padding-top: 15px; 
+       }
+       
+       .card-img{
+        border: 10px solid #d9c2a3;
+       transition: transform .5s;
+       box-shadow: 5px 5px 10px #6f7364;
+       }
+       
+       .card-img:hover {
+          opacity: .6;
+          transform: scale(1.1);
+       }
+       
+       main section img {
+          box-sizing: border-box;
+       }
+       
+       
+       
+
+
+
+    
+@media screen and (max-width: 900px) {
+    #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    nav, footer {
+        flex-direction: column;
+    }
+    nav a {
+        display: block;
+        padding: 15px;
+    }
+    #hero {
+        margin-top: 0;
+    }
+    #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg h4 {
+        display: none;
+    }
+    .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .rivers-card, .camping-card, .rapids-card { 
+        margin: 50px auto;
+        width: 60%;
+    }
+    #background {
+        display: none;
+    }
+    .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    footer {
+        margin-top: 25px;
+    }
+ }
+       
