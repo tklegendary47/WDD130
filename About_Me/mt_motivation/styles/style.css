@@ -525,6 +525,13 @@ margin-left: 32%;
         display: block;
         padding: 15px;
     }
+
+
+    .btn1 .btn2 .btn3{
+        flex-direction: column;
+        display: block;
+        padding: 15px;
+    }
     #hero {
         margin-top: 0;
     }
